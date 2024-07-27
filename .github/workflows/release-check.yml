@@ -27,7 +27,7 @@ concurrency:
 
 jobs:
   release-check:
-    uses: ipdxco/unified-github-workflows/.github/workflows/release-check.yml@v1.0
+    uses: ipdxco/unified-github-workflows/.github/workflows/release-check.yml@feat/subpackages
     with:
       sources: |
         [

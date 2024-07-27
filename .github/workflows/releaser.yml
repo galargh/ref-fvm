@@ -25,7 +25,7 @@ concurrency:
 
 jobs:
   releaser:
-    uses: ipdxco/unified-github-workflows/.github/workflows/releaser.yml@v1.0
+    uses: ipdxco/unified-github-workflows/.github/workflows/releaser.yml@feat/subpackages
     with:
       sources: |
         [
